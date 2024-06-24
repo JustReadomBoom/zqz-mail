@@ -1,4 +1,4 @@
-package com.zqz.mail;
+package com.zqz.mail.test;
 
 import com.zqz.mail.service.ApplicationStart;
 import com.zqz.mail.service.utils.SendMailUtil;
