@@ -76,6 +76,9 @@
                             <exclude>application-prod.properties</exclude>
                         </excludes>
                     </resource>
+                    <resource>
+                        <directory>${mail.conf.dir}</directory>
+                    </resource>
                 </resources>
             </build>
         </profile>
@@ -95,6 +98,9 @@
                             <exclude>application-test.properties</exclude>
                             <exclude>application-prod.properties</exclude>
                         </excludes>
+                    </resource>
+                    <resource>
+                        <directory>${mail.conf.dir}</directory>
                     </resource>
                 </resources>
             </build>
